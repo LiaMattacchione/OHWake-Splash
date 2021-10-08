@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    padding: 50px 60px;
+    padding: 60px 60px;
 }
 
 .desktpHeader {
@@ -49,7 +49,7 @@ header {
     background-position: top right;
     position: absolute;
     top: 75px;
-    left: 550px;
+    right: 100px;
     width: 6%;
     height: 50em;
     z-index: 799;
@@ -84,7 +84,7 @@ header {
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
-    right: 180px;
+    right: 210px;
     top: 140px;
     width: 25%;
     height: 40em;
@@ -110,7 +110,7 @@ header {
     position: absolute;
     right: 0px;
     top: 480px;
-    width: 50%;
+    width: 40%;
     height: 50em;
     z-index: 800;
 }
@@ -128,14 +128,14 @@ header {
 }
 
 .yellowCircle {
-    background-image: url(./images/yellowcirclelarge.png);
+    background-image: url(./images/OH_YELLOW_CIRCLE.svg);
     background-repeat: no-repeat;
     background-position: top left;
     position: fixed;
     top: 420px;
-    left: 80px;
-    width: 60%;
-    height: 50em;
+    left: 70px;
+    width: 50%;
+    height: 30%;
     z-index: 799;
 }
 
@@ -146,21 +146,19 @@ header {
     background-position: bottom;
     position: fixed;
     left: 0;
-    width: 100%;
-    height: 50em;
+    width: 70%;
+    height: 80%;
     z-index: 800;
 }
 
-#shark {
+.shark {
     background-image: url(./images/SharkMed.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    margin: 50px;
     position: fixed;
-    top: 60px;
-    left: 0px;
-    width: 50%;
-    height: 50em;
+    left: 0;
+    width: 90%;
+    height: 40%;
     z-index: 801;
 }
 
@@ -197,21 +195,21 @@ header {
     }
     
     .newsletter {
-        right: 150px;
-        top: 140px;
+        right: 210px;
+        top: 150px;
         width: 25%;
     }
     
     .socials {
         left: 460px;
-        top: 360px;
-        width: 17%;
+        top: 380px;
+        width: 20%;
     }
     
     .desktpOhWake {
         right: 0px;
         top: 510px;
-        width: 60%;
+        width: 50%;
     }
     
     .ohWakeOrg {
@@ -221,15 +219,13 @@ header {
     }
     
     .yellowCircle {
-        bottom: 250px;
+        top: 350px;
         left: 60px;
     }
     
-    #shark {
-        bottom: 0px;
-        left: 0px;
-        width: 50%;
-        z-index: 804;
+    .shark {
+        top: 530px;
+        left: 60px;
     }
     
     .ocean {
@@ -270,39 +266,27 @@ header {
     }
     
     .newsletter {
-        right: 100px;
+        right: 180px;
         top: 140px;
         width: 25%;
     }
     
     .socials {
-        left: 460px;
-        top: 350px;
-        width: 18%;
+        left: 430px;
+        top: 360px;
+        width: 20%;
     }
     
     .desktpOhWake {
         right: 0px;
         top: 510px;
-        width: 60%;
+        width: 50%;
     }
     
     .ohWakeOrg {
         right: 90px;
         top: 560px;
         width: 10%;
-    }
-    
-    .yellowCircle {
-        bottom: 250px;
-        left: 60px;
-    }
-    
-    #shark {
-        bottom: 0px;
-        left: 0px;
-        width: 50%;
-        z-index: 804;
     }
     
     .ocean {
@@ -343,14 +327,14 @@ header {
     }
     
     .newsletter {
-        right: 100px;
+        right: 180px;
         top: 130px;
         width: 25%;
     }
     
     .socials {
         position: absolute;
-        left: 430px;
+        left: 420px;
         top: 320px;
         width: 18%;
     }
@@ -358,7 +342,7 @@ header {
     .desktpOhWake {
         right: 0px;
         top: 470px;
-        width: 60%;
+        width: 50%;
     }
     
     .ohWakeOrg {
@@ -367,22 +351,10 @@ header {
         width: 10%;
     }
     
-    .yellowCircle {
-        bottom: 220px;
-        left: 60px;
-    }
-    
-    #shark {
-        bottom: 10px;
-        left: 0px;
-        width: 50%;
-        z-index: 804;
-    }
-    
     .ocean {
-        top: 220px;
+        top: 250px;
         left: 0;
-        width: 120%;
+        width: 110%;
     }
 
 }
@@ -392,11 +364,6 @@ header {
         width: 80%;
     }
     
-    .starburst {
-        top: 40px;
-        left: 50px;
-    }
-    
     .lineStar {
         top: 75px;
         left: 480px;
@@ -422,7 +389,6 @@ header {
     }
     
     .socials {
-        position: absolute;
         left: 380px;
         top: 310px;
         width: 20%;
@@ -431,38 +397,31 @@ header {
     .desktpOhWake {
         right: 0px;
         top: 480px;
-        width: 60%;
+        width: 50%;
     }
     
     .ohWakeOrg {
-        right: 80px;
-        top: 530px;
+        right: 50px;
+        top: 520px;
         width: 12%;
     }
     
     .yellowCircle {
-        position: fixed;
-        bottom: 360px;
-        left: 60px;
+        top: 450px;
+        height: 30%;
+        left: 40px;
         width: 60%;
     }
     
-    #shark {
-        position: fixed;
-        bottom: 130px;
-        left: 0px;
-        width: 60%;
+    .shark {
+        top: 600px;
+        left: 60px;
     }
     
     .ocean {
-        position: fixed;
-        bottom: 0;
-        left: 0;
         width: 120%;
     }
-
 }
-
 
 @media screen and (max-width: 980px) {
     .desktpHeader {
@@ -470,13 +429,13 @@ header {
     }
     
     .starburst {
-        top: 40px;
-        left: 50px;
+        top: 30px;
+        left: 40px;
     }
     
     .lineStar {
         top: 75px;
-        left: 480px;
+        left: 460px;
         width: 7%;
     }
     
@@ -487,8 +446,8 @@ header {
     }
     
     .roundFlower {
-        top: 210px;
-        left: 290px;
+        top: 200px;
+        left: 270px;
         width: 7%;
     }
     
@@ -499,36 +458,32 @@ header {
     }
     
     .socials {
-        position: absolute;
-        left: 380px;
-        top: 310px;
+        left: 350px;
+        top: 300px;
         width: 20%;
     }
     
     .desktpOhWake {
         right: 0px;
-        top: 480px;
-        width: 60%;
+        top: 420px;
+        width: 55%;
     }
     
     .ohWakeOrg {
-        right: 80px;
-        top: 530px;
+        right: 60px;
+        top: 460px;
         width: 12%;
     }
     
     .yellowCircle {
-        position: fixed;
-        bottom: 360px;
-        left: 60px;
-        width: 60%;
+        width: 40%;
+        height: 30%;
+        left: 40px;
+        top: 450px;
     }
-    
-    #shark {
-        position: fixed;
-        bottom: 130px;
-        left: 0px;
-        width: 60%;
+    .shark {
+        top: 600px;
+        left: 60px;
     }
     
     .ocean {
@@ -541,93 +496,27 @@ header {
 
 
 @media screen and (max-width: 768px) {
-    .desktpHeader {
-        width: 80%;
-    }
-    
-    .starburst {
-        top: 40px;
-        left: 55px;
-    }
-    
-    .lineStar {
-        left: 380px;
-    }
-    
-    .flower {
-        right: 140px;
-    }
-    
-    .roundFlower {
-        top: 170px;
-        left: 230px;
-    }
-    
-    .newsletter {
-        right: 50px;
-        top: 110px;
-    }
-    
-    .socials {
-        top: 250px;
-        left: 270px;
-    }
-    
-    .desktpOhWake {
-        right: 0px;
-        top: 400px;
-    }
-    
-    .ohWakeOrg {
-        right: 60px;
-        top: 450px;
-    }
-    
-    .yellowCircle {
-        position: fixed;
-        bottom: 270px;
-        left: 30px;
-        width: 60%;
-    }
-    
-    #shark {
-        position: fixed;
-        bottom: 70px;
-        left: 0px;
-        width: 70%;
-    }
-    
-    .ocean {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 130%;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
     .desktpCheckOut {
         background-image: url(./images/WelcomeToOceanHeros_Mobile.svg);
         background-repeat: no-repeat;
         background-position: top center;
         position: absolute;
-        left: 90px;
-        width: 70%;
+        left: 100px;
+        width: 75%;
         height: 50em;
         z-index: 800;
     }
 
     .desktpHeader {
-        left: 90px;
-        width: 70%;
-        top: 300px;
+        left: 100px;
+        width: 75%;
+        top: 380px;
     }
 
     .starburst {
-        top: 25px;
+        top: 20px;
         left: 40px;
-        width: 22%;
+        width: 20%;
         height: 50em;
     }
 
@@ -640,24 +529,24 @@ header {
     }
 
     .roundFlower {
-        top: 100px;
-        left: 460px;
-        width: 12%;
+        top: 120px;
+        left: 600px;
+        width: 10%;
         height: 50em;
     }
 
     .newsletter {
-        width: 40%;
-        top: 430px;
-        left: 330px;
+        width: 35%;
+        top: 560px;
+        left: 430px;
     }
 
     .socials {
         background-image: url("./images/FindUsOnSocial.svg");
         background-position: top;
-        width: 27%;
-        top: 440px;
-        left: 60px;
+        width: 20%;
+        top: 560px;
+        left: 80px;
         z-index: 799;
     }
 
@@ -669,8 +558,8 @@ header {
         background-image: url("./images/CHECKOUT_MOBILE.svg");
         background-position: top;
         width: 70%;
-        left: 100px;
-        top: 760px;
+        left: 120px;
+        top: 910px;
     }
 
     .trashBag {
@@ -678,35 +567,141 @@ header {
         background-repeat: no-repeat;
         background-position: top;
         position: absolute;
-        width: 53%;
-        top: 450px;
-        left: 85px;
-        height: 50em;
+        width: 50%;
+        top: 550px;
+        left: 80px;
+        height: 60%;
         z-index: 800;
     }
 
-    #shark {
+    .cloud {
+        background-image: url(./images/Clouds.svg);
+        background-repeat: no-repeat;
+        background-position: 40px 25px;
+        position: absolute;
+        width: 40%;
+        top: 670px;
+        right: 0px;
+        height: 60%;
+        z-index: 800;
+    }
+
+    .shark {
+        background-image: url(./images/Sharksmall.png);
+        background-repeat: no-repeat;
         background-position: bottom left;
         position: fixed;
-        bottom: 150px;
-        left: 0px;
+        top: 520px;
+        left: 30px;
         width: 70%;
     }
     
     .ocean {
+        top: 250px;
         width: 140%;
     }
 
     .blueCircle {
-        background-image: url(./images/bluecirclemed.png);
+        background-image: url(./images/OH_LIGHTBLUE_CIRCLE.svg);
         background-repeat: no-repeat;
         background-position: bottom right;
         position: fixed;
-        width: 100%;
-        bottom: 120px;
-        right: 60px;
+        width: 40%;
+        bottom: 50px;
+        right: 20px;
         height: 50em;
         z-index: 800;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .desktpCheckOut {
+        left: 90px;
+        width: 70%;
+    }
+
+    .desktpHeader {
+        left: 90px;
+        width: 70%;
+        top: 300px;
+    }
+
+    .starburst {
+        top: 25px;
+        left: 40px;
+        width: 22%;
+        height: 50em;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 100px;
+        left: 450px;
+        width: 12%;
+    }
+
+    .newsletter {
+        width: 40%;
+        top: 430px;
+        left: 330px;
+    }
+
+    .socials {
+        width: 27%;
+        top: 430px;
+        left: 70px;
+        z-index: 799;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        width: 70%;
+        left: 100px;
+        top: 730px;
+    }
+
+    .trashBag {
+        width: 53%;
+        top: 430px;
+        left: 110px;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .cloud {
+        top: 530px;
+    }
+
+    .shark {
+        top: 650px;
+        left: 10px;
+        height: 30%;
+    }
+    
+    .ocean {
+        top: 250px;
+        width: 150%;
+    }
+
+    .blueCircle {
+        width: 40%;
+        bottom: 60px;
+        right: 20px;
     }
 
     .yellowCircle {
@@ -717,21 +712,19 @@ header {
 
 @media screen and (max-width: 575px) {
     .desktpCheckOut {
-        left: 80px;
+        left: 90px;
         width: 70%;
-        height: 50em;
-        z-index: 800;
     }
 
     .desktpHeader {
-        left: 80px;
+        left: 90px;
         width: 70%;
         top: 300px;
     }
 
     .starburst {
         top: 25px;
-        left: 30px;
+        left: 40px;
         width: 22%;
         height: 50em;
     }
@@ -746,21 +739,20 @@ header {
 
     .roundFlower {
         top: 100px;
-        left: 430px;
+        left: 450px;
         width: 12%;
-        height: 50em;
     }
 
     .newsletter {
         width: 40%;
         top: 430px;
-        left: 290px;
+        left: 330px;
     }
 
     .socials {
-        width: 23%;
-        top: 440px;
-        left: 40px;
+        width: 27%;
+        top: 430px;
+        left: 70px;
         z-index: 799;
     }
 
@@ -770,29 +762,36 @@ header {
 
     .ohWakeOrg {
         width: 70%;
-        left: 80px;
-        top: 760px;
+        left: 100px;
+        top: 730px;
     }
 
     .trashBag {
-        width: 48%;
-        top: 460px;
-        left: 60px;
+        width: 53%;
+        top: 430px;
+        left: 110px;
+        height: 50em;
+        z-index: 800;
     }
 
-    #shark {
-        bottom: 100px;
-        left: 0px;
+    .cloud {
+        top: 520px;
+    }
+    .shark {
+        top: 650px;
+        left: 10px;
         width: 70%;
     }
     
     .ocean {
-        width: 130%;
+        top: 250px;
+        width: 140%;
     }
 
     .blueCircle {
-        bottom: 80px;
-        right: 30px;
+        width: 40%;
+        bottom: 30px;
+        right: 20px;
     }
 
     .yellowCircle {
@@ -803,20 +802,21 @@ header {
 
 @media screen and (max-width: 480px) {
     .desktpCheckOut {
-        left: 70px;
-        width: 70%;
+        left: 50px;
+        width: 80%;
     }
 
     .desktpHeader {
-        left: 70px;
-        width: 70%;
-        top: 260px;
+        left: 50px;
+        width: 80%;
+        top: 270px;
     }
 
     .starburst {
-        top: 30px;
-        left: 30px;
+        top: 25px;
+        left: 20px;
         width: 22%;
+        height: 50em;
     }
 
     .lineStar {
@@ -829,51 +829,62 @@ header {
 
     .roundFlower {
         top: 100px;
-        left: 370px;
+        left: 380px;
         width: 12%;
     }
 
     .newsletter {
-        width: 35%;
-        top: 370px;
-        left: 290px;
+        width: 40%;
+        top: 400px;
+        left: 260px;
     }
 
     .socials {
-        width: 23%;
-        top: 380px;
-        left: 50px;
-    }
-
-    .trashBag {
-        width: 48%;
+        width: 27%;
         top: 390px;
-        left: 60px;
+        left: 40px;
+        z-index: 799;
     }
 
     .desktpOhWake {
         display: none;
     }
 
-    .ohWakeOrg { 
-        width: 70%;
-        left: 80px;
-        top: 650px;
+    .ohWakeOrg {
+        width: 80%;
+        left: 60px;
+        top: 680px;
     }
 
-    #shark {
-        bottom: 100px;
+    .trashBag {
+        width: 53%;
+        top: 410px;
+        left: 70px;
+    }
+
+    .cloud {
+        top: 480px;
+    }
+
+    .shark {
+        background-image: url(./images/Sharkxs.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        position: fixed;
+        top: 630px;
         left: 0px;
         width: 70%;
     }
     
     .ocean {
-        width: 130%;
+        top: 250px;
+        width: 160%;
     }
 
     .blueCircle {
+        width: 40%;
         bottom: 50px;
-        right: 30px;
+        right: 20px;
     }
 
     .yellowCircle {
@@ -891,7 +902,7 @@ header {
     .desktpHeader {
         left: 60px;
         width: 70%;
-        top: 205px;
+        top: 210px;
     }
 
     .starburst {
@@ -916,20 +927,25 @@ header {
 
     .newsletter {
         width: 35%;
-        top: 300px;
+        top: 310px;
         left: 230px;
     }
 
     .socials {
         width: 23%;
-        top: 300px;
+        top: 310px;
         left: 30px;
     }
 
     .trashBag {
         width: 48%;
-        top: 300px;
-        left: 40px;
+        top: 340px;
+        left: 50px;
+    }
+
+    .cloud {
+        width: 48%;
+        top: 360px;
     }
 
     .desktpOhWake {
@@ -939,26 +955,27 @@ header {
     .ohWakeOrg {
         width: 70%;
         left: 70px;
-        top: 480px;
+        top: 540px;
     }
 
-    #shark {
-        bottom: 30px;
-        left: 0px;
+    .shark {
+        background-image: url(./images/Sharkxxs.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        position: fixed;
+        top: 500px;
+        left: 20px;
         width: 70%;
     }
     
     .ocean {
-        width: 120%;
+        width: 140%;
+        top: 200px;
     }
 
     .blueCircle {
-        background-image: url(./images/bluecirclesmall.png);
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        position: fixed;
-        width: 100%;
-        bottom: 30px;
+        width: 40%;
+        bottom: 0px;
         right: 20px;
         height: 50em;
         z-index: 800;
@@ -1020,6 +1037,11 @@ header {
         left: 40px;
     }
 
+    .cloud {
+        width: 40%;
+        top: 300px;
+    }
+
     .desktpOhWake {
         display: none;
     }
@@ -1030,18 +1052,19 @@ header {
         top: 440px;
     }
 
-    #shark {
-        bottom: 30px;
+    .shark {
+        top: 520px;
         left: 0px;
-        width: 70%;
     }
     
     .ocean {
         width: 120%;
+        top: 200px;
     }
 
     .blueCircle {
-        bottom: 20px;
+        width: 30%;
+        bottom: 10px;
         right: 20px;
     }
 
@@ -1097,8 +1120,13 @@ header {
 
     .trashBag {
         width: 44%;
-        top: 240px;
+        top: 250px;
         left: 50px;
+    }
+
+    .cloud {
+        width: 40%;
+        top: 260px;
     }
 
     .desktpOhWake {
@@ -1108,16 +1136,16 @@ header {
     .ohWakeOrg {
         width: 70%;
         left: 50px;
-        top: 370px;
+        top: 380px;
     }
 
-    #shark {
-        bottom: 10px;
-        left: 0px;
+    .shark {
+        top: 400px;
         width: 70%;
     }
     
     .ocean {
+        top: 140px;
         width: 110%;
     }
 
