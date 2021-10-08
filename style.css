@@ -1053,18 +1053,18 @@ header {
     }
 
     .shark {
-        top: 520px;
+        top: 460px;
         left: 0px;
     }
     
     .ocean {
-        width: 120%;
-        top: 200px;
+        width: 150%;
+        top: 180px;
     }
 
     .blueCircle {
         width: 30%;
-        bottom: 10px;
+        bottom: 50px;
         right: 20px;
     }
 
@@ -1145,12 +1145,12 @@ header {
     }
     
     .ocean {
-        top: 140px;
+        top: 120px;
         width: 110%;
     }
 
     .blueCircle {
-        bottom: 0px;
+        bottom: 20px;
         right: 20px;
     }
 
