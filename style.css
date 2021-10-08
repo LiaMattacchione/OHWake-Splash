@@ -1,0 +1,1127 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+:root {
+    --primary-color: #2c16d2;
+}
+
+body {
+    background-color: var(--primary-color);
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    padding: 50px 60px;
+}
+
+.desktpHeader {
+    background-image: url(./images/Header_Desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    width: 70%;
+    height: 50em;
+    z-index: 800;
+}
+
+.starburst {
+    background-image: url(./images/SHAPE_Starburst.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 10%;
+    height: 50em;
+    z-index: 799;
+}
+
+.lineStar {
+    background-image: url(./images/SHAPE_LineStar.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    top: 75px;
+    left: 550px;
+    width: 6%;
+    height: 50em;
+    z-index: 799;
+}
+
+.flower {
+    background-image: url(./images/SHAPE_Flower.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    width: 6%;
+    height: 50em;
+    z-index: 799;
+}
+
+.roundFlower {
+    background-image: url(./images/SHAPE_RoundFlower.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    top: 250px;
+    left: 370px;
+    width: 6%;
+    height: 50em;
+    z-index: 799;
+}
+
+.newsletter {
+    background-image: url(./images/signup\ for\ our\ newsletter.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    right: 180px;
+    top: 140px;
+    width: 25%;
+    height: 40em;
+    z-index: 803;
+}
+
+.socials {
+    background-image: url(./images/FindUS_Social_Desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    left: 440px;
+    top: 360px;
+    width: 20%;
+    height: 50em;
+    z-index: 803;
+}
+
+.desktpOhWake {
+    background-image: url(./images/CheckoutOHWAKE_DESKTOP.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    right: 0px;
+    top: 480px;
+    width: 50%;
+    height: 50em;
+    z-index: 800;
+}
+
+.ohWakeOrg {
+    background-image: url(./images/ohwake.org_Desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    right: 60px;
+    top: 530px;
+    width: 10%;
+    height: 50em;
+    z-index: 799;
+}
+
+.yellowCircle {
+    background-image: url(./images/yellowcirclelarge.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: fixed;
+    bottom: 420px;
+    left: 80px;
+    width: 60%;
+    height: 50em;
+    z-index: 799;
+}
+
+.shark {
+    background-image: url(./images/Shark_.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: fixed;
+    bottom: 190px;
+    left: 0px;
+    width: 45%;
+    height: 50em;
+    z-index: 801;
+}
+
+.ocean {
+    background-image: url(./images/OCEAN.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50em;
+    z-index: 800;
+}
+
+
+/* VIEWPORTS */
+@media screen and (max-width: 1536px) {
+    .desktpHeader {
+        width: 70%;
+    }
+    
+    .starburst {
+        top: 20px;
+        left: 30px;
+        width: 12%;
+    }
+    
+    .lineStar {
+        top: 75px;
+        left: 620px;
+    }
+    
+    .flower {
+        top: 30px;
+        right: 370px;
+        width: 7%;
+    }
+    
+    .roundFlower {
+        top: 240px;
+        left: 350px;
+        width: 7%;
+    }
+    
+    .newsletter {
+        right: 150px;
+        top: 140px;
+        width: 25%;
+    }
+    
+    .socials {
+        left: 460px;
+        top: 360px;
+        width: 17%;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 510px;
+        width: 60%;
+    }
+    
+    .ohWakeOrg {
+        right: 90px;
+        top: 560px;
+        width: 10%;
+    }
+    
+    .yellowCircle {
+        bottom: 250px;
+        left: 60px;
+    }
+    
+    .shark {
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+        z-index: 804;
+    }
+    
+    .ocean {
+        top: 350px;
+        left: 0;
+        width: 110%;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .desktpHeader {
+        width: 70%;
+    }
+    
+    .starburst {
+        top: 20px;
+        left: 30px;
+        width: 12%;
+    }
+    
+    .lineStar {
+        top: 75px;
+        left: 580px;
+        width: 7%;
+    }
+    
+    .flower {
+        top: 30px;
+        right: 370px;
+        width: 7%;
+    }
+    
+    .roundFlower {
+        top: 230px;
+        left: 350px;
+        width: 7%;
+    }
+    
+    .newsletter {
+        right: 100px;
+        top: 140px;
+        width: 25%;
+    }
+    
+    .socials {
+        left: 460px;
+        top: 350px;
+        width: 18%;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 510px;
+        width: 60%;
+    }
+    
+    .ohWakeOrg {
+        right: 90px;
+        top: 560px;
+        width: 10%;
+    }
+    
+    .yellowCircle {
+        bottom: 250px;
+        left: 60px;
+    }
+    
+    .shark {
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+        z-index: 804;
+    }
+    
+    .ocean {
+        top: 320px;
+        left: 0;
+        width: 110%;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .desktpHeader {
+        width: 70%;
+    }
+    
+    .starburst {
+        top: 20px;
+        left: 30px;
+        width: 12%;
+    }
+    
+    .lineStar {
+        top: 75px;
+        left: 510px;
+        width: 7%;
+    }
+    
+    .flower {
+        top: 30px;
+        right: 350px;
+        width: 7%;
+    }
+    
+    .roundFlower {
+        top: 210px;
+        left: 310px;
+        width: 7%;
+    }
+    
+    .newsletter {
+        right: 100px;
+        top: 130px;
+        width: 25%;
+    }
+    
+    .socials {
+        position: absolute;
+        left: 430px;
+        top: 320px;
+        width: 18%;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 470px;
+        width: 60%;
+    }
+    
+    .ohWakeOrg {
+        right: 90px;
+        top: 520px;
+        width: 10%;
+    }
+    
+    .yellowCircle {
+        bottom: 220px;
+        left: 60px;
+    }
+    
+    .shark {
+        bottom: 10px;
+        left: 0px;
+        width: 50%;
+        z-index: 804;
+    }
+    
+    .ocean {
+        top: 220px;
+        left: 0;
+        width: 120%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .desktpHeader {
+        width: 80%;
+    }
+    
+    .starburst {
+        top: 40px;
+        left: 50px;
+    }
+    
+    .lineStar {
+        top: 75px;
+        left: 480px;
+        width: 7%;
+    }
+    
+    .flower {
+        top: 30px;
+        right: 260px;
+        width: 7%;
+    }
+    
+    .roundFlower {
+        top: 210px;
+        left: 290px;
+        width: 7%;
+    }
+    
+    .newsletter {
+        right: 80px;
+        top: 120px;
+        width: 25%;
+    }
+    
+    .socials {
+        position: absolute;
+        left: 380px;
+        top: 310px;
+        width: 20%;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 480px;
+        width: 60%;
+    }
+    
+    .ohWakeOrg {
+        right: 80px;
+        top: 530px;
+        width: 12%;
+    }
+    
+    .yellowCircle {
+        position: fixed;
+        bottom: 360px;
+        left: 60px;
+        width: 60%;
+    }
+    
+    .shark {
+        position: fixed;
+        bottom: 130px;
+        left: 0px;
+        width: 60%;
+    }
+    
+    .ocean {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 120%;
+    }
+
+}
+
+
+@media screen and (max-width: 980px) {
+    .desktpHeader {
+        width: 80%;
+    }
+    
+    .starburst {
+        top: 40px;
+        left: 50px;
+    }
+    
+    .lineStar {
+        top: 75px;
+        left: 480px;
+        width: 7%;
+    }
+    
+    .flower {
+        top: 30px;
+        right: 260px;
+        width: 7%;
+    }
+    
+    .roundFlower {
+        top: 210px;
+        left: 290px;
+        width: 7%;
+    }
+    
+    .newsletter {
+        right: 80px;
+        top: 120px;
+        width: 25%;
+    }
+    
+    .socials {
+        position: absolute;
+        left: 380px;
+        top: 310px;
+        width: 20%;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 480px;
+        width: 60%;
+    }
+    
+    .ohWakeOrg {
+        right: 80px;
+        top: 530px;
+        width: 12%;
+    }
+    
+    .yellowCircle {
+        position: fixed;
+        bottom: 360px;
+        left: 60px;
+        width: 60%;
+    }
+    
+    .shark {
+        position: fixed;
+        bottom: 130px;
+        left: 0px;
+        width: 60%;
+    }
+    
+    .ocean {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 120%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .desktpHeader {
+        width: 80%;
+    }
+    
+    .starburst {
+        top: 40px;
+        left: 55px;
+    }
+    
+    .lineStar {
+        left: 380px;
+    }
+    
+    .flower {
+        right: 140px;
+    }
+    
+    .roundFlower {
+        top: 170px;
+        left: 230px;
+    }
+    
+    .newsletter {
+        right: 50px;
+        top: 110px;
+    }
+    
+    .socials {
+        top: 250px;
+        left: 270px;
+    }
+    
+    .desktpOhWake {
+        right: 0px;
+        top: 400px;
+    }
+    
+    .ohWakeOrg {
+        right: 60px;
+        top: 450px;
+    }
+    
+    .yellowCircle {
+        position: fixed;
+        bottom: 270px;
+        left: 30px;
+        width: 60%;
+    }
+    
+    .shark {
+        position: fixed;
+        bottom: 70px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 130%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .desktpCheckOut {
+        background-image: url(./images/WelcomeToOceanHeros_Mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        position: absolute;
+        left: 90px;
+        width: 70%;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .desktpHeader {
+        left: 90px;
+        width: 70%;
+        top: 300px;
+    }
+
+    .starburst {
+        top: 25px;
+        left: 40px;
+        width: 22%;
+        height: 50em;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 100px;
+        left: 460px;
+        width: 12%;
+        height: 50em;
+    }
+
+    .newsletter {
+        width: 40%;
+        top: 430px;
+        left: 330px;
+    }
+
+    .socials {
+        background-image: url("./images/FindUsOnSocial.svg");
+        background-position: top;
+        width: 27%;
+        top: 440px;
+        left: 60px;
+        z-index: 799;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        background-image: url("./images/CHECKOUT_MOBILE.svg");
+        background-position: top;
+        width: 70%;
+        left: 100px;
+        top: 760px;
+    }
+
+    .trashBag {
+        background-image: url(./images/PLASTICBAG_MOBILE.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        position: absolute;
+        width: 53%;
+        top: 450px;
+        left: 85px;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .shark {
+        background-position: bottom left;
+        position: fixed;
+        bottom: 150px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 140%;
+    }
+
+    .blueCircle {
+        background-image: url(./images/bluecirclemed.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        position: fixed;
+        width: 100%;
+        bottom: 120px;
+        right: 60px;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .desktpCheckOut {
+        left: 80px;
+        width: 70%;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .desktpHeader {
+        left: 80px;
+        width: 70%;
+        top: 300px;
+    }
+
+    .starburst {
+        top: 25px;
+        left: 30px;
+        width: 22%;
+        height: 50em;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 100px;
+        left: 430px;
+        width: 12%;
+        height: 50em;
+    }
+
+    .newsletter {
+        width: 40%;
+        top: 430px;
+        left: 290px;
+    }
+
+    .socials {
+        width: 23%;
+        top: 440px;
+        left: 40px;
+        z-index: 799;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        width: 70%;
+        left: 80px;
+        top: 760px;
+    }
+
+    .trashBag {
+        width: 48%;
+        top: 460px;
+        left: 60px;
+    }
+
+    .shark {
+        bottom: 100px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 130%;
+    }
+
+    .blueCircle {
+        bottom: 80px;
+        right: 30px;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .desktpCheckOut {
+        left: 70px;
+        width: 70%;
+    }
+
+    .desktpHeader {
+        left: 70px;
+        width: 70%;
+        top: 260px;
+    }
+
+    .starburst {
+        top: 30px;
+        left: 30px;
+        width: 22%;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 100px;
+        left: 370px;
+        width: 12%;
+    }
+
+    .newsletter {
+        width: 35%;
+        top: 370px;
+        left: 290px;
+    }
+
+    .socials {
+        width: 23%;
+        top: 380px;
+        left: 50px;
+    }
+
+    .trashBag {
+        width: 48%;
+        top: 390px;
+        left: 60px;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg { 
+        width: 70%;
+        left: 80px;
+        top: 650px;
+    }
+
+    .shark {
+        bottom: 100px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 130%;
+    }
+
+    .blueCircle {
+        bottom: 50px;
+        right: 30px;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .desktpCheckOut {
+        left: 60px;
+        top: 40px;
+        width: 70%;
+    }
+
+    .desktpHeader {
+        left: 60px;
+        width: 70%;
+        top: 205px;
+    }
+
+    .starburst {
+        top: 10px;
+        left: 30px;
+        width: 22%;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 60px;
+        left: 310px;
+        width: 12%;
+    }
+
+    .newsletter {
+        width: 35%;
+        top: 300px;
+        left: 230px;
+    }
+
+    .socials {
+        width: 23%;
+        top: 300px;
+        left: 30px;
+    }
+
+    .trashBag {
+        width: 48%;
+        top: 300px;
+        left: 40px;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        width: 70%;
+        left: 70px;
+        top: 480px;
+    }
+
+    .shark {
+        bottom: 30px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 120%;
+    }
+
+    .blueCircle {
+        background-image: url(./images/bluecirclesmall.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        position: fixed;
+        width: 100%;
+        bottom: 30px;
+        right: 20px;
+        height: 50em;
+        z-index: 800;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {    
+    .desktpCheckOut {
+        left: 50px;
+        top: 40px;
+        width: 70%;
+    }
+
+    .desktpHeader {
+        left: 50px;
+        width: 70%;
+        top: 190px;
+    }
+
+    .starburst {
+        top: 20px;
+        left: 20px;
+        width: 22%;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 60px;
+        left: 280px;
+        width: 12%;
+    }
+
+    .newsletter {
+        width: 35%;
+        top: 270px;
+        left: 210px;
+    }
+
+    .socials {
+        width: 23%;
+        top: 270px;
+        left: 30px;
+    }
+
+    .trashBag {
+        width: 48%;
+        top: 270px;
+        left: 40px;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        width: 70%;
+        left: 60px;
+        top: 440px;
+    }
+
+    .shark {
+        bottom: 30px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 120%;
+    }
+
+    .blueCircle {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {    
+    .desktpCheckOut {
+        left: 45px;
+        top: 40px;
+        width: 70%;
+    }
+
+    .desktpHeader {
+        left: 45px;
+        width: 70%;
+        top: 170px;
+    }
+
+    .starburst {
+        top: 20px;
+        left: 20px;
+        width: 22%;
+    }
+
+    .lineStar {
+        display: none;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .roundFlower {
+        top: 60px;
+        left: 240px;
+        width: 12%;
+    }
+
+    .newsletter {
+        width: 35%;
+        top: 240px;
+        left: 170px;
+    }
+
+    .socials {
+        width: 23%;
+        top: 240px;
+        left: 30px;
+    }
+
+    .trashBag {
+        width: 44%;
+        top: 240px;
+        left: 50px;
+    }
+
+    .desktpOhWake {
+        display: none;
+    }
+
+    .ohWakeOrg {
+        width: 70%;
+        left: 50px;
+        top: 370px;
+    }
+
+    .shark {
+        bottom: 10px;
+        left: 0px;
+        width: 70%;
+    }
+    
+    .ocean {
+        width: 110%;
+    }
+
+    .blueCircle {
+        bottom: 0px;
+        right: 20px;
+    }
+
+    .yellowCircle {
+        display: none;
+    }
+}
