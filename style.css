@@ -1,8 +1,10 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}html{scroll-behavior:smooth}body{line-height:1}a{text-decoration-skip-ink:auto}a[href^="tel"]{color:inherit;text-decoration:none}button{outline:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}q{display:inline;font-style:italic}q:before{content:'"';font-style:normal}q:after{content:'"';font-style:normal}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="search"],input[type="password"]{-webkit-appearance:none;appearance:none;border-radius:0}input[type="search"]{-webkit-appearance:textfield}table{border-collapse:collapse;border-spacing:0}th,td{padding:2px}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd,tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del,strike,s{text-decoration:line-through}dt{font-weight:bold}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;word-break:normal}
+.screen-reader-text:focus{background-color:#f7f7f7;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#007acc;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;right:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
+.skip-link{left:-9999rem;top:2.5rem;z-index:999999999;text-decoration:underline}
+.skip-link:focus{display:block;left:6px;top:7px;font-size:14px;font-weight:600;text-decoration:none;line-height:normal;padding:15px 23px 14px;z-index:100000;right:auto}
+.visually-hidden:not(:focus):not(:active), .form-allowed-tags:not(:focus):not(:active){position:absolute !important;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);white-space:nowrap}
 
 :root {
     --primary-color: #2c16d2;
@@ -128,38 +130,41 @@ header {
 .yellowCircle {
     background-image: url(./images/yellowcirclelarge.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: top left;
     position: fixed;
-    bottom: 420px;
+    top: 420px;
     left: 80px;
     width: 60%;
     height: 50em;
     z-index: 799;
 }
 
-.shark {
-    background-image: url(./images/Shark_.svg);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    position: fixed;
-    bottom: 190px;
-    left: 0px;
-    width: 45%;
-    height: 50em;
-    z-index: 801;
-}
-
 .ocean {
+    bottom: auto !important;
     background-image: url(./images/OCEAN.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     position: fixed;
-    bottom: 0;
     left: 0;
     width: 100%;
     height: 50em;
     z-index: 800;
 }
+
+#shark {
+    background-image: url(./images/SharkMed.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin: 50px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    width: 50%;
+    height: 50em;
+    z-index: 801;
+}
+
+
 
 
 /* VIEWPORTS */
@@ -220,7 +225,7 @@ header {
         left: 60px;
     }
     
-    .shark {
+    #shark {
         bottom: 0px;
         left: 0px;
         width: 50%;
@@ -293,7 +298,7 @@ header {
         left: 60px;
     }
     
-    .shark {
+    #shark {
         bottom: 0px;
         left: 0px;
         width: 50%;
@@ -367,7 +372,7 @@ header {
         left: 60px;
     }
     
-    .shark {
+    #shark {
         bottom: 10px;
         left: 0px;
         width: 50%;
@@ -442,7 +447,7 @@ header {
         width: 60%;
     }
     
-    .shark {
+    #shark {
         position: fixed;
         bottom: 130px;
         left: 0px;
@@ -519,7 +524,7 @@ header {
         width: 60%;
     }
     
-    .shark {
+    #shark {
         position: fixed;
         bottom: 130px;
         left: 0px;
@@ -585,7 +590,7 @@ header {
         width: 60%;
     }
     
-    .shark {
+    #shark {
         position: fixed;
         bottom: 70px;
         left: 0px;
@@ -680,7 +685,7 @@ header {
         z-index: 800;
     }
 
-    .shark {
+    #shark {
         background-position: bottom left;
         position: fixed;
         bottom: 150px;
@@ -775,7 +780,7 @@ header {
         left: 60px;
     }
 
-    .shark {
+    #shark {
         bottom: 100px;
         left: 0px;
         width: 70%;
@@ -856,7 +861,7 @@ header {
         top: 650px;
     }
 
-    .shark {
+    #shark {
         bottom: 100px;
         left: 0px;
         width: 70%;
@@ -937,7 +942,7 @@ header {
         top: 480px;
     }
 
-    .shark {
+    #shark {
         bottom: 30px;
         left: 0px;
         width: 70%;
@@ -1025,7 +1030,7 @@ header {
         top: 440px;
     }
 
-    .shark {
+    #shark {
         bottom: 30px;
         left: 0px;
         width: 70%;
@@ -1106,7 +1111,7 @@ header {
         top: 370px;
     }
 
-    .shark {
+    #shark {
         bottom: 10px;
         left: 0px;
         width: 70%;
